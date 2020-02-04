@@ -11,27 +11,54 @@ namespace VS2012LikeWindow2.Views.Behaviors
 {
 	public class MetroChromeBehavior : Behavior<Window>
 	{
-		protected override void OnAttached()
+        GlowWindow left, right, top, bottom;
+
+        protected override void OnAttached()
 		{
 			base.OnAttached();
 
 			this.AssociatedObject.Loaded += (sender, e) =>
-			{
-				var left = new GlowWindow(this.AssociatedObject, GlowDirection.Left);
-				var right = new GlowWindow(this.AssociatedObject, GlowDirection.Right);
-				var top = new GlowWindow(this.AssociatedObject, GlowDirection.Top);
-				var bottom = new GlowWindow(this.AssociatedObject, GlowDirection.Bottom);
+            {
+                left = new GlowWindow(this.AssociatedObject, GlowDirection.Left);
+                right = new GlowWindow(this.AssociatedObject, GlowDirection.Right);
+                top = new GlowWindow(this.AssociatedObject, GlowDirection.Top);
+                bottom = new GlowWindow(this.AssociatedObject, GlowDirection.Bottom);
 
-				left.Show();
-				right.Show();
-				top.Show();
-				bottom.Show();
+                ShowAll();
+                UpdateAll();
+            };
 
-				left.Update();
-				right.Update();
-				top.Update();
-				bottom.Update();
-			}; ;
-		}
-	}
+            this.AssociatedObject.Activated += (sender, e) =>
+            {
+                ShowAll();
+            };
+            this.AssociatedObject.Deactivated += (sender, e) =>
+            {
+                HideAll();
+            };
+        }
+
+        private void UpdateAll()
+        {
+            left.Update();
+            right.Update();
+            top.Update();
+            bottom.Update();
+        }
+
+        private void ShowAll()
+        {
+            left.Show();
+            right.Show();
+            top.Show();
+            bottom.Show();
+        }
+        private void HideAll()
+        {
+            left.Hide();
+            right.Hide();
+            top.Hide();
+            bottom.Hide();
+        }
+    }
 }
