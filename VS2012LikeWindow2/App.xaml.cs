@@ -17,11 +17,5 @@ namespace VS2012LikeWindow2
 			get { return (App)Application.Current; }
 		}
 
-		internal ThemeService ThemeService { get; private set; }
-
-		public App()
-		{
-			this.ThemeService = new ThemeService(this);
-		}
 	}
 }

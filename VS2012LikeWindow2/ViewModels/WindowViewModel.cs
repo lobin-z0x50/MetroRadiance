@@ -114,15 +114,15 @@ namespace VS2012LikeWindow2.ViewModels
 
 		public void ChangePurple()
 		{
-			App.Current.ThemeService.Change(Accent.Purple);
+			App.Current.ChangeTheme(Accent.Purple);
 		}
 		public void ChangeBlue()
 		{
-			App.Current.ThemeService.Change(Accent.Blue);
+			App.Current.ChangeTheme(Accent.Blue);
 		}
 		public void ChangeOrange()
 		{
-			App.Current.ThemeService.Change(Accent.Orange);
+			App.Current.ChangeTheme(Accent.Orange);
 		}
 	}
 }

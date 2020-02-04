@@ -1,4 +1,5 @@
-﻿using System.Windows.Media;
+﻿using System.Windows;
+using System.Windows.Media;
 
 namespace VS2012LikeWindow2.Views
 {
@@ -7,16 +8,9 @@ namespace VS2012LikeWindow2.Views
 		Purple, Blue, Orange,
 	}
 
-	public class ThemeService
-	{
-		private App app;
-
-		public ThemeService(App app)
-		{
-			this.app = app;
-		}
-
-		public void Change(Accent accent)
+	public static class ThemeService
+	{		
+		public static void ChangeTheme(this Application app, Accent accent)
 		{
 			SolidColorBrush brush = null;
 			switch (accent)

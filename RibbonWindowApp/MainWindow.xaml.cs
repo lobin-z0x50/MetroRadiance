@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Controls.Ribbon;
+using VS2012LikeWindow2.Views;
 
 namespace RibbonWindowApp
 {
@@ -23,6 +24,7 @@ namespace RibbonWindowApp
         public MainWindow()
         {
             InitializeComponent();
+            Application.Current.ChangeTheme(Accent.Orange);
         }
     }
 }
