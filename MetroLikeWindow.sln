@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. ZuneLikeWindow", "ZuneLikeWindow\1. ZuneLikeWindow.csproj", "{FBFC5D5B-1C27-4238-8A15-EEFA349C383D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. VS2012LikeWindow1", "VS2012LikeWindow1\2. VS2012LikeWindow1.csproj", "{344C483A-2CE7-4525-87CE-B2F94551EA99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. VS2012LikeWindow2", "VS2012LikeWindow2\3. VS2012LikeWindow2.csproj", "{5A51BF31-DD40-4FB6-A9F9-C701F6A89E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{ED9C493F-4028-4F2A-BF59-CC0C418C0F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbonWindowApp", "RibbonWindowApp\RibbonWindowApp.csproj", "{CF5F6CA9-7C03-4CAE-8C38-2400459E9D7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +45,27 @@ Global
 		{5A51BF31-DD40-4FB6-A9F9-C701F6A89E87}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5A51BF31-DD40-4FB6-A9F9-C701F6A89E87}.Release|x86.ActiveCfg = Release|x86
 		{5A51BF31-DD40-4FB6-A9F9-C701F6A89E87}.Release|x86.Build.0 = Release|x86
+		{ED9C493F-4028-4F2A-BF59-CC0C418C0F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9C493F-4028-4F2A-BF59-CC0C418C0F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9C493F-4028-4F2A-BF59-CC0C418C0F8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED9C493F-4028-4F2A-BF59-CC0C418C0F8C}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED9C493F-4028-4F2A-BF59-CC0C418C0F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9C493F-4028-4F2A-BF59-CC0C418C0F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9C493F-4028-4F2A-BF59-CC0C418C0F8C}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED9C493F-4028-4F2A-BF59-CC0C418C0F8C}.Release|x86.Build.0 = Release|Any CPU
+		{CF5F6CA9-7C03-4CAE-8C38-2400459E9D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5F6CA9-7C03-4CAE-8C38-2400459E9D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5F6CA9-7C03-4CAE-8C38-2400459E9D7A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CF5F6CA9-7C03-4CAE-8C38-2400459E9D7A}.Debug|x86.Build.0 = Debug|Any CPU
+		{CF5F6CA9-7C03-4CAE-8C38-2400459E9D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5F6CA9-7C03-4CAE-8C38-2400459E9D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5F6CA9-7C03-4CAE-8C38-2400459E9D7A}.Release|x86.ActiveCfg = Release|Any CPU
+		{CF5F6CA9-7C03-4CAE-8C38-2400459E9D7A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E33558A-FA5D-48AE-B8A7-8454D0C19625}
 	EndGlobalSection
 EndGlobal

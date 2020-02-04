@@ -2,12 +2,12 @@
 
 namespace VS2012LikeWindow2.Views
 {
-	enum Accent
+	public enum Accent
 	{
 		Purple, Blue, Orange,
 	}
 
-	class ThemeService
+	public class ThemeService
 	{
 		private App app;
 

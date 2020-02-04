@@ -1,0 +1,27 @@
+﻿<Application x:Class="RibbonWindowApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RibbonWindowApp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <!-- 光るウインドウ枠の色の定義 -->
+        <SolidColorBrush x:Key="AccentBrushKey"
+						 Color="#FF007ACC" />
+        <SolidColorBrush x:Key="ThemeBackgroundBrushKey"
+						 Color="#FF2D2D30" />
+        <SolidColorBrush x:Key="ThemeBackgroundSemiLightBrushKey"
+						 Color="#FF333337" />
+        <SolidColorBrush x:Key="ThemeBackgroundLightBrushKey"
+						 Color="#FF3E3E42" />
+        <SolidColorBrush x:Key="ThemeBackgroundLightLightBrushKey"
+						 Color="#FF686868" />
+        <SolidColorBrush x:Key="ThemeBackgroundDarkBrushKey"
+						 Color="#FF252526" />
+        <SolidColorBrush x:Key="ThemeForegroundBrushKey"
+						 Color="#FFF1F1F1" />
+        <SolidColorBrush x:Key="ThemeForegroundDarkBrushKey"
+						 Color="#FF969696" />
+
+    </Application.Resources>
+</Application>

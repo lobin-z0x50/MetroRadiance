@@ -9,7 +9,7 @@ using VS2012LikeWindow2.Views.MetroChrome;
 
 namespace VS2012LikeWindow2.Views.Behaviors
 {
-	class MetroChromeBehavior : Behavior<Window>
+	public class MetroChromeBehavior : Behavior<Window>
 	{
 		protected override void OnAttached()
 		{

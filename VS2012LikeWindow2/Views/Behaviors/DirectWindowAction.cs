@@ -3,7 +3,7 @@ using System.Windows.Interactivity;
 
 namespace VS2012LikeWindow2.Views.Behaviors
 {
-	class DirectWindowAction : TriggerAction<FrameworkElement>
+	public class DirectWindowAction : TriggerAction<FrameworkElement>
 	{
 		#region WindowAction 依存関係プロパティ
 

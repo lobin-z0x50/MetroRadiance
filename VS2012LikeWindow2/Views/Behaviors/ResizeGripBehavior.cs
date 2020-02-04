@@ -6,7 +6,7 @@ using VS2012LikeWindow2.Models.Win32;
 
 namespace VS2012LikeWindow2.Views.Behaviors
 {
-	class ResizeGripBehavior : Behavior<FrameworkElement>
+	public class ResizeGripBehavior : Behavior<FrameworkElement>
 	{
 		private bool isEnabled;
 
